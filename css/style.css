@@ -1,0 +1,164 @@
+    body {
+        background-image: url('../img/fondo.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        transform:translatez(0);
+        -webkit-transform:translatez(0);
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    /* REGISTRO */
+    
+    .titulo_registro h4 {
+        text-align: center;
+        color: rgb(99, 99, 99);
+    }
+    
+    .campos {
+        margin-left: 3vh;
+        font-weight: 500;
+    }
+    /* LOGIN */
+    
+    .titulo_login h4 {
+        text-align: center;
+        color: rgb(99, 99, 99);
+    }
+    
+    .contenido_login {
+        padding: 20vh 25vh;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    /* ACTIVACION */
+    
+    .imagen_activacion {
+        display: block;
+        margin: 1vh auto;
+        height: 10vh;
+        width: 13vh;
+    }
+    
+    .texto_activacion {
+        margin-top: 8vh;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border: 1px solid rgb(251, 185, 1);
+        border-radius: 1%;
+        text-align: center;
+    }
+    
+    .link_acceso {
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(251, 185, 1);
+    }
+    
+    .link_acceso span {
+        text-decoration: underline;
+    }
+    /* GENERAL */
+    
+    .contenido {
+        margin-top: 2vh;
+        padding: 1vh 25vh;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    .texto {
+        margin-top: 1vh;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border: 1px solid rgb(179, 133, 8);
+        border-radius: 1%;
+    }
+    
+    .logo {
+        display: block;
+        margin: 0 auto;
+    }
+    /** NAV **/
+    
+    .header {
+        height: 20px;
+        width: 100%;
+    }
+    
+    .fixed {
+        position: fixed;
+        width: 90%;
+        top: 0;
+    }
+    
+    .navi {
+        height: 65px;
+        z-index: 3;
+        border: 3px solid rgb(179, 133, 8);
+        backdrop-filter: blur(5px);
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    
+    .cuenta_despegable {
+        margin-top: 8px !important;
+        border: 1px solid rgb(179, 133, 8);
+        backdrop-filter: blur(15px);
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    
+    .dropdown-item:hover {
+        background-color: rgb(179, 133, 8);
+    }
+    
+    .navi ul {
+        gap: 15vh;
+    }
+    
+    .navi li {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .navi li a {
+        color: #ad9100;
+    }
+    
+    .navi li a :visited {
+        color: #ad9100;
+    }
+    
+    .navi li a:hover {
+        color: white;
+    }
+    
+    .logo_nav img {
+        width: 25vh;
+        margin-right: 1vh;
+    }
+    /*INDEX */
+    
+    .texto_index {
+        margin-top: 1vh;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border: 1px solid rgb(179, 133, 8);
+        border-radius: 1%;
+        font-size: 20px;
+    }
+    /* LISTAS CURSOS */
+    
+    td {
+        font-weight: 500;
+    }
+
+
+    /* MODAL */
+
+
+    .delete_modal{
+        color: rgb(179, 133, 8);
+
+    }
