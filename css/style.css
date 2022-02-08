@@ -155,10 +155,22 @@
     }
 
 
-    /* MODAL */
-
+    /* MODAL BORRAR CURSO*/
 
     .delete_modal{
-        color: rgb(179, 133, 8);
+        backdrop-filter: blur(3px);
+        background-color: rgba(255, 255, 255, 0.7);
+        border: 1px solid rgb(179, 8, 8);
+        border-radius: 1%;
 
+    }
+
+    .modal_image{
+        height: 10vh;
+        width: 10vh;
+    }
+
+    .delete_modal span{
+        color: rgb(148, 28, 28);
+        text-decoration: underline;
     }
