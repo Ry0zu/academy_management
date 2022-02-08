@@ -26,7 +26,7 @@ include("php/head.php");
                         <td><?php echo $row["nombre_curso"];?></td>
                         <td><?php echo $row["duracion_curso"];?>h</td>
                         <td><?php echo $row["modalidad_curso"];?></td>
-                        <td><a href="editar_curso.php?id_curso=<?php echo $row["id_curso"];?>" role="button" class="bi bi-pencil btn btn-warning"></a> | <a href="#" data-bs-toggle="modal" data-bs-target="#modelId<?php echo $row['id_curso'];?>"  role="button" class="bi bi-trash btn btn-danger"></a></td>
+                        <td><a href="editar_curso.php?id_curso=<?php echo $row["id_curso"];?>" role="button" class="bi bi-pencil-square btn btn-warning"></a> | <a href="#" data-bs-toggle="modal" data-bs-target="#modelId<?php echo $row['id_curso'];?>"  role="button" class="bi bi-trash btn btn-danger"></a></td>
                     </tr>
 
                                 <!-- Modal -->
